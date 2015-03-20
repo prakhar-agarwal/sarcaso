@@ -1,0 +1,2 @@
+# sarcaso
+Sarcasm detection machine
