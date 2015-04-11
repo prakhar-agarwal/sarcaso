@@ -8,5 +8,5 @@ INITIALIZING DB
 `$ curl -i -X DELETE http://127.0.0.1:5000/concepts`
 
 + feed the data via post request
-`$ curl -i -X POST -d @db.json -H 'Application-Content: application/json' \
+`$ curl -i -X POST -d @data.json -H 'Application-Content: application/json' \
         http://127.0.0.1:5000/concepts`
