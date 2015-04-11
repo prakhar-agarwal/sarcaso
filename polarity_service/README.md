@@ -35,3 +35,9 @@ Clean any data if it already exists
 Feed the data via post request
 
 `$ curl -i -X POST -d @data.json -H 'Application-Content: application/json' http://127.0.0.1:5000/concepts`
+
+
+
+CITATIONS
+---------
++ E. Cambria, D. Olsher, and D. Rajagopal. SenticNet 3: A Common and Common-Sense Knowledge Base for Cognition-Driven Sentiment Analysis. In: AAAI, pp. 1515-1521, Quebec City (2014)
