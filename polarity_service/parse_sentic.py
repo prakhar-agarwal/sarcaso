@@ -31,5 +31,7 @@ for child in cl:
             'aptitude': aptitude,
             'polarity': polarity
         }
-
-print(root)
+print '['
+for c in master_dict:
+    print master_dict[c],','
+print ']'
