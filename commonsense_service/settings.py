@@ -1,8 +1,8 @@
 MONGO_DBNAME = 'concepts'
 
-RESOURCE_METHODS = ['GET', 'POST', 'DELETE']
+RESOURCE_METHODS = ['GET', 'POST']
 
-ITEM_METHODS = ['GET', 'PATCH', 'DELETE', 'PUT']
+ITEM_METHODS = ['GET']
 
 ACHE_CONTROL = 'max-age=20'
 CACHE_EXPIRES = 20
@@ -49,3 +49,4 @@ concepts = {
 DOMAIN = {
     'concepts': concepts,
 }
+
